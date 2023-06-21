@@ -1,0 +1,55 @@
+/* Inline Styling */
+header {
+    background-color: #a81414;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Internal Styling */
+main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+section {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+/* External Styling */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+/* CSS Selectors */
+ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+/* Flexbox Example */
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Animation Example */
+@keyframes exampleAnimation {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
